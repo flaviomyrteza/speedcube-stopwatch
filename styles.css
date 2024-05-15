@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #70ddfe;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#stopwatch {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.buttons button#reset {
+  background-color: #ff6347;
+  color: white;
+}
+
+/* Add styles for times list and statistics */
+#timesList {
+  margin-top: 20px;
+}
+
+#timesList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#timesList li {
+  margin-bottom: 5px;
+}
+
+#statistics {
+  margin-top: 20px;
+}

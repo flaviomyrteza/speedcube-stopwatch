@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Speedcuber Stopwatch</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Speedcuber Stopwatch</h1>
+  <div id="scramble">Scramble: <span id="scrambleText">-</span></div>
+  <div id="stopwatch">00:00:00</div>
+  <div id="controls" class="buttons">
+    <button id="startStop" onclick="startStop()">Start</button>
+    <button id="reset" onclick="reset()">Reset</button>
+    <button id="record" onclick="recordTime()">Record Time</button>
+    <button id="clearRecords" onclick="clearRecords()">Clear Times</button>
+  </div>
+  <div id="timesList">
+    <h2>Times</h2>
+    <ul id="times"></ul>
+    <div id="statistics">
+      <h2>Statistics</h2>
+      <p>Best Time: <span id="bestTime">-</span></p>
+      <p>Worst Time: <span id="worstTime">-</span></p>
+      <p>AO5: <span id="ao5">-</span></p>
+      <p>Best AO5: <span id="bestAo5">-</span></p>
+      <p>AO12: <span id="ao12">-</span></p>
+      <p>Best AO12: <span id="bestAo12">-</span></p>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
